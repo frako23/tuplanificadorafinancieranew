@@ -24,10 +24,17 @@
 @font-face {
   font-family: 'Alta';
   src: url('../fonts/Alta_regular.otf');
+  
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Thin.otf');
+  
 }
 
 body {
-  font-family: 'Alta';
+  
   font-weight: normal;
   font-style: normal;
   color: #284159; }
@@ -72,13 +79,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Alta", sans-serif;
+  font-family: "Alta";
   font-weight: 700;
   color: #38424D;
   margin: 0px; }
 
 h1 {
-  font-size: 48px; }
+  font-size: 48px; 
+  }
 
 h2 {
   font-size: 36px; }
@@ -98,9 +106,13 @@ h6 {
 ul, ol {
   margin: 0px;
   padding: 0px;
-  list-style-type: none; }
+  list-style-type: none; 
+  font-family: 'Gotham';
+}
 
 p {
+  
+font-family: 'Gotham';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
