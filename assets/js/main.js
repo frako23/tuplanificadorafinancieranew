@@ -6,6 +6,12 @@ $(function() {
     
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 1500);
+        $( '#contact-form' ).each(function(){
+            this.reset();
+        });
     });
     
     
@@ -181,7 +187,6 @@ $(function() {
     
     
     //===== 
-    
     
     
     
