@@ -1339,8 +1339,7 @@ p {
 ===========================*/
 .footer_area {
   background-color: #e9a31f;
-  z-index: -1;
-  position: relative;
+
 }
 
 .footer_wrapper {
